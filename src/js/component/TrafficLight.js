@@ -33,24 +33,3 @@ export const TrafficLight = () => {
 		</div>
 	);
 };
-
-// import React, { useState } from "react";
-// // imports
-// //create your first component
-// export function ConditionalRenderFunction() {
-// 	let colores = ["red", "blue", "green", "purple", "orange"];
-// 	let [colorBox, setColorBox] = useState("red");
-// 	const cambiarColor = () => {
-// 		let color = Math.floor(Math.random() * colores.length);
-// 		// console.log(color);
-// 		setColorBox((colorBox = colores[color]));
-// 	};
-// 	return (
-// 		<div className="color-box">
-// 			<h1>Componente Funcion</h1>
-// 			<div className="box" style={{ backgroundColor: colorBox }}></div>
-// 			<p>{colorBox}</p>
-// 			<button onClick={cambiarColor}>Cambiar Color</button>
-// 		</div>
-// 	);
-// }
